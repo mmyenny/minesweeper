@@ -6,8 +6,10 @@ class App extends Component {
   render() {
     return (
       <main>
-        <h1>Minesweeper</h1>
-        <Table />
+        <div>
+          <h1>Minesweeper</h1>
+          <Table />
+        </div>
       </main>
     )
   }
