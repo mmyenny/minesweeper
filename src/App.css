@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 main {
   display: flex;
   flex-direction: column;
@@ -9,26 +11,31 @@ main {
 
 h1 {
   color: aliceblue;
+  text-shadow: 4px 4px black;
   text-align: center;
+  padding: 1.5rem;
+  font-family: 'Press Start 2P', cursive;
 }
 
 table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-collapse: collapse;
 }
 
-th {
+.header {
   background-color: lightgrey;
-  border: 2px solid rgb(43, 43, 43);
-  box-shadow: 2px 2px 2px 2px;
-  text-align: center;
   padding: 15px;
 }
 
 select {
+  cursor: pointer;
   margin: 8px;
 }
 
 button {
+  cursor: pointer;
   font-size: 1rem;
 }
 
