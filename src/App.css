@@ -43,6 +43,65 @@ button {
   background-color: lightgrey;
 }
 
+.cell-1 {
+  color: blue;
+  background-color: lightgrey;
+}
+
+.cell-2 {
+  color: rgb(14, 94, 14);
+  background-color: lightgrey;
+}
+
+.cell-3 {
+  color: red;
+  background-color: lightgrey;
+}
+
+.cell-4 {
+  color: purple;
+  background-color: lightgrey;
+}
+
+.cell-5 {
+  color: darkblue;
+  background-color: lightgrey;
+}
+
+.cell-6 {
+  color: orangered;
+  background-color: lightgrey;
+}
+
+.cell-7 {
+  color: teal;
+  background-color: lightgrey;
+}
+
+.cell-8 {
+  color: rgb(29, 28, 28);
+  background-color: lightgrey;
+}
+
+.cell-flag {
+  font-size: 10px;
+  background-color: lightgrey;
+}
+
+.cell-bomb {
+  font-size: 10px;
+  background-color: lightgrey;
+}
+
+.cell-flaged {
+  font-size: 10px;
+  background-color: lightgrey;
+}
+
+.cell-covered {
+  background-color: lightgrey;
+}
+
 td {
   cursor: pointer;
   width: 20px;
