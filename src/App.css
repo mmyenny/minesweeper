@@ -32,11 +32,20 @@ button {
   font-size: 1rem;
 }
 
+.gameStatus {
+  background-color: lightgrey;
+}
+
 td {
+  cursor: pointer;
   width: 20px;
   height: 20px;
-  background-color: lightgrey;
+  background-color: #afafaf;
   border: 2px solid rgb(26, 25, 25);
   box-shadow: 1px 1px 1px 1px;
   text-align: center;
+}
+
+.footer {
+  background-color: lightgrey;
 }
