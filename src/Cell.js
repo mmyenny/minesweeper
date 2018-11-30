@@ -32,7 +32,7 @@ class Cell extends Component {
   }
 
   lookupValue = () => {
-    const symbol = { '*': '💣', F: '⛳️', '@': '😬', _: ' ' }
+    const symbol = { '*': '💣', F: '⛳️', '@': '💣', _: ' ' }
 
     let foundValue = symbol[this.props.value] || this.props.value
 
