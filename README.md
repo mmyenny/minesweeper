@@ -1,35 +1,15 @@
-New Game
+<p align="center">
+<img src="src/images/minesweeper.gif">
+</p>
 
-DONE When the user clicks the new game button
-DONE Use the new game API to request a new game
-POST /games
-Take what the API gives back and put that in the state
-DONE Display the number of the game we are playing
-Draw the board
+## Summary
 
-DONE 8x8 grid of and elements
-DONE comes from the state, the API calls this board (Render based on the state)
-DONE So for each element in the board, put the appropriate character in the table
-DONE Update the number of mines remaining
-Check a cell
+In this assignment I was instructed to create the classic Minesweeper game using a given API.
 
-Tell the API that the user checked a cell
-DONE We need to tell it:
-id (number of the game)
-row
-col
-DONE POST /games/{id}/check
-DONE Take what the API gives back and put that in the state
-Flag a cell
+## Technologies Used
 
-DONE Tell the API that the user flagged a cell
-
-DONE We need to tell it:
-id (number of the game)
-row
-col
-DONE POST /games/{id}/flag
-DONE Take what the API gives back and put that in the state
-Handle a game over (display something to the user)
-
-Handle easy/intermediate/expert
+- Axios
+- Javascript - https://www.javascript.com/
+- REACT - https://reactjs.org/
+- CSS
+- HTML
